@@ -1,0 +1,72 @@
+AI Agents
+ETL - Extract Data 
+      Traform Data 
+	  Load
+Web Application - Fast API
+Cloud Application - AWS,Azure,GCP
+
+
+Data Engineering(Snowflake,SQL,ADF) 
+DA   
+DS - AI,DL,NLP
+------------------------------------
+Python is General Purpose PL
+       Interpreted, HighLevel PL
+
+Java - OOP Language
+Javascript - Scripting Programming Language.
+c - Functional Programming Language.
+
+Print "Hello World" - using
+1)java
+2)js 
+3)c or c++
+
+Python - supporting
+1)OOP features,
+2)Functional Programming 
+3)Scripting programming 
+	
+Guido Vann Rossum @ NIT Netharlands. 1991
+General availability
+Python    - Feb 20th 1991(Python 1.x,2.x,3.x)
+Java      - 1995 Developer - Sun Mirco sys - Oracle
+---------------------------------------------------
+Coding Ediors
+1)Thonny
+2)VS Code (*****)
+3)Jupyter notebook
+4)Pycharm
+5)Google Colab
+--------------------------------------------------
+Pyton Introduction
+Python Statemement,Comments
+Python Identifiers,Keywrods,
+Python  Data Type
+Operators
+Conflow statemetns(conditon flow,iterative st)
+Functions
+Python Data structures(LIST,Tuple,Set,Dict,String)
+Python - Module & Packages, PIP, PyPi.org
+
+Python  - File Handling
+	1.Text Files 
+	2.CSV Files 
+	3.JSON Files 
+	4.Images
+	5.Videos - AI Tools
+Python - Error Handling 
+Python - OOP features 
+Pythoin - Regular Express
+
+Python  - PDBC - Mysql,MongoDB
+Python   - ETL 
+	1.Extract data from - DB/FS/Cloud/DWH
+	2.Traform Data 
+	3.Load data into - DB/FS/Cloud 
+
+Python - AWS - Boto3 Module 
+Fast API - Web Application 
+AI Tools 
+AI Agent
+
