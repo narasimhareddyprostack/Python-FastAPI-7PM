@@ -163,7 +163,3 @@ print(type(ba))
 print(type(fz))
 print(type(numbers))
 print(type(discount))
-
-============================
-Data Type:
-------------
