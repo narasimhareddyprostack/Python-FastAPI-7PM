@@ -166,4 +166,115 @@ print(type(discount))
 
 ============================
 Data Type:
-------------
+-----------
+a=100
+
+
+Python Inbuild function:
+---------------------------
+
+print("GM")
+print("GA")
+print("GN")
+
+GM
+GA
+GN
+
+GM  GA GN
+---------------------
+print() - inbuild function
+-- print something on console/termial
+
+by print() function ends with new lines
+
+syntax
+------
+print( ,end='\n')
+
+If we dont want new line - we can override.
+
+input() fuction?
+--------------------------------
+read data from user/console/termial.
+default type is str.
+
+type() - return data type
+id()   - return address of the object.
+
+================================================
+Python Data types:
+how to represent int data type?
+
+a=15
+b=0b1111
+c=0o17
+d=0xf
+
+We can represent Int Data type
+1.Decimal format      - 10 : 0-9
+2.Binary format       -  2 :0,1
+3.Octal Format        -  8 :0-7
+4.HexaDecimal Format  - 16 :0-9,a,b,c,d,e,f
+
+We can represent Int Data type
+1.Decimal format      - 10 : 0-9
+2.Binary format       -  2 :0,1
+  0b1111 / 0B1111
+3.Octal Format        -  8 :0-7
+  0o17 / 0O17 
+4.HexaDecimal Format  - 16 :0-9,a,b,c,d,e,f
+  0xf  /0XF
+
+
+Typecasting function
+-------------------
+bin()
+oct()
+hex()
+int()
+---------------------------------------
+
+int
+float
+str
+complex
+bool
+list
+tuple
+set
+dict
+bytes
+bytearray
+frozenset
+range()
+nonType
+----------
+Mutability    - list,set,dict,bytearray
+Immutability  - int,str,float,bool,complex,
+                bytes,tuple,range,nonType
+
+
+a=10
+a=20
+
+Data Strcuture
+--------------
+List,Tuple,Set,Dict,String
+
+What is list?
+->group of elements/values/objects/items are one entity
+->allowed duplicates and heterogeneous elements
+->List elements are storing based on indexing
+->index values are - 0 to n-1
+-> -ve indexing is possible.
+-> Order maintained
+-> We can iterate list object using 
+   a)for loop
+   b)while loop
+
+
+Create
+Read
+Update
+Delete
