@@ -268,9 +268,73 @@ What is list?
 ->List elements are storing based on indexing
 ->index values are - 0 to n-1
 -> -ve indexing is possible.
+-> Order maintained
+-> We can iterate list object using 
+   a)for loop
+   b)while loop
+->List is Mutable Object
 
 
 Create
 Read
 Update
 Delete
+
+Tuple
+--------
+What is Tuple?
+->group of elements/values/objects/items are one entity
+->allowed duplicates and heterogeneous elements
+->Tuple elements are storing based on indexing
+->index values are - 0 to n-1
+-> -ve indexing is possible.
+-> Order maintained
+-> We can iterate Tuple object using 
+   a)for loop
+   b)while loop
+->List is Mutable Object
+->Tuple is Immutable Object
+
+Set
+------------
+->group of elments/values/object/items as one entity
+->duplicates are not allowed but allowed Heterogeneous
+->Indexing is not applicable.
+->Order Not Maintained.
+->Set is iterable Object.
+  a)iterate using only for loop.
+->Set - Mutable.
+
+Create
+------
+s1={}
+print(s1)
+print(type(s1))
+
+
+Dict DS/Object               
+--------------
+->group of key:value pairs as one entity.
+->group of properties as one entity.
+  Property
+  property name:value
+->duplicate keys are not allowed, but values are allowed
+->indexing not possbile. ie Order not maintained.
+->Dict is not iterable.
+->dict Mutable Object.
+
+Create   
+------
+d1={}   #empyt dict object
+emp={
+	'eid':101,
+	'ename':'Rahul',
+	'esal':45000
+    }
+
+
+#how to read dict values? using key.
+dict['key']
+=======================================
+Python Errors:
+==============

@@ -1,0 +1,10 @@
+emp={
+    'eid':101,
+    'ename':'Rahul',
+    'email':'rg@gmail.com',
+    'email':'rg@tcs.com',
+    'email':'rg@ibm.com',
+    'email':'rg@sony.com',
+    'esal':45000.45
+}
+print(emp)
