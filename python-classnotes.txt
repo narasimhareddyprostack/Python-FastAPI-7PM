@@ -353,3 +353,66 @@ FEErrror
 ----------------------------------------------
 Python Operators
 Python controlflow st
+
+Top 25 Error:
+-------------------
+SyntaxError
+IndetationError
+NameError
+TypeError
+ValueError
+AttributeError
+KeyError
+IndexError
+
+Python Operators:
+----------------
+Arithmatic Operators  :  + , - ,*, /, %,  //, **
+Relatoin Operators    : >, >=  , <,<=
+Logical Operators     : and , or , not
+Equality Operators    : ==,  !=
+Assignment Operators  : =  , +=, -=,*= , /=,
+Special Operators    
+a)Membership Operators:in , not in
+b)Identity Operators  :is , is not
+Bitwise Operators     :
+
+Arithamatic Operators
+
++ : addition Operator
+----------------------
+             
+addition                      |  concatination
+both aperands are number type |  both are string type
+
+a=10
+b=20.5 
+c="30"
+d="Rahul"
+e='y'
+f=True
+g=False 
+
+print(a+b) #30.5
+print(a+c) #TypeError
+print(a+d) #TypeError
+print(a+e) #TypeError
+print(a+f) #11
+print(a+g) #10
+
+
+* : Mutliply Operator
+----------------------
+Mutliplication                 | Repetetion
+both operands are number type  | int type * str type
+
+
+Division vs floor Division
+/   vs //
+---------------------
+divition  - always return floating point result
+a=10
+b=5
+print(a/b)  #2.0  ==> division always return floating point
+print(a//b) #2    ==> floor div : based on operands type
+========================================================
