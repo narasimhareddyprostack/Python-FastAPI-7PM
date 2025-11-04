@@ -415,3 +415,29 @@ a=10
 b=5
 print(a/b)  #2.0  ==> division always return floating point
 print(a//b) #2    ==> floor div : based on operands type
+========================================================
+
+Membership Op: in , not in
+To verify member/item/element/object present in seq or not
+
+Identity Op:  is , is not  : address comparison opera
+==========================
+
+ControlFlow St
+---------------
+Conditional St:
+----------------
+if st
+if-else st 
+if-elif st 
+if-elif-else 
+
+Note:In Python - switch st
+Iterative st:
+--------------
+for loop
+while loop 
+Note: In Python do-while loop 
+===================================
+WAP to print given number is Even or odd number?
+WAP to print given number is 3 digit number or not?
