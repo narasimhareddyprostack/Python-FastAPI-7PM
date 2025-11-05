@@ -441,3 +441,71 @@ Note: In Python do-while loop
 ===================================
 WAP to print given number is Even or odd number?
 WAP to print given number is 3 digit number or not?
+
+======================================
+For loop?
+-----------
+
+While Loop?
+
+print 1,2,3,4,5,...10
+
+initlization st :
+condition    st :
+incr/decr    st :
+======================
+List-Tuple-Set-Dict Methods
+============================
+List
+-----
+->group of elements/value/object/items as one entity
+->allowed duplicates & Heterogeneous elements
+->elements are storing based on indexing.
+->Order Maintained
+->Mutalbe object
+->Iterate using a)for loop b)while loop
+
+create
+Read
+Update
+Delete
+-----------------------------------------------------
+List - Methods
+
+list.copy()            :create new list object
+read
+------------
+list.index(ele)        :return index value of first occurance of specified elemnet
+list.count(ele)        :return no of occurance of specidfied element 
+
+Update
+-----------
+list.append(ele)       :append element to end list
+list.insert(index,ele) :insert element at specified index
+list.extend([])        :exteding another list elements list
+
+list.sort()            :sort List elements- NSO(ascending)
+list.reverse()         :reverse the list elements
+Delete
+-------------
+list.pop()             :remove last element from list
+list.remove(ele)       :remove specified element from list
+                        if element not present- ValueError
+list.clear()           :remove all elements from list.
+
+Tuple - DS
+----------
+->group of elements/value/object/items as one entity
+->allowed duplicates & Heterogeneous elements
+->elements are storing based on indexing.
+->Order Maintained
+->Immutalbe object
+->Iterate using a)for loop b)while loop
+
+Note: tuple is - read only version of list.
+tuple.count(ele)  - return no of occurance of the specified element
+tuple.index(ele)  - return index of first occurance of elmeent
+==================================================
+set - DS Metods:
+-----------------
+
