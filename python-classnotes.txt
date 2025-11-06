@@ -516,4 +516,50 @@ set - DS Metods:
 -->set is mutable Object
 -->We can iterate using only for loop.
 
+set - DS : Methods
+====================
+{10,20,30}.add(35)              : add element to set object
+{10,20,30}.update({40,50,60})   : add anoter set values 
+{10,20,30}.pop()                : remove arbitary element
+{10,20,30}.remove(20)           : remove specified element
+{10,20,30}.dicard(20)           : remove specified element
+{10,20,30}.clear(20)
+
+
+
+set.remove(ele)  
+->remove specified element from set.
+->if specified element not present in set - 
+  return KeyError
+
+
+set.discard(ele)
+
+->remove specified element from set.
+->if specified element not present in set - 
+  return None
+
+
+Dict - DS:
+-----------
+--> represent group of key:value pairs as one entity.
+--> duplicates are keys are not allowed.
+--> indexing concpet is not applicable.
+--> Dict is a mutable object.
+
+CRUD - Operations dict.
+
+Dict Metods.
+----------
+dict.keys()   #return all keys in the form dict-list
+dict.values() #return all values in the form dict-list
+dict.get(key) #return value of specified key
+dict.items()  #return (key,vlaue) in the form of dict-list
+dict.setdefault() 
+dict.pop(key)    #remove key:value pair of specifed key.
+dict.popitem()#
+dict.remove(key) #remove specified key:value
+dict.clear()     #remove all key:value pairs.
+==============================================
+
 
