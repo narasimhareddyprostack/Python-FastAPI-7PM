@@ -560,5 +560,65 @@ dict.pop(key)    #remove key:value pair of specifed key.
 dict.popitem()#
 dict.remove(key) #remove specified key:value
 dict.clear()     #remove all key:value pairs.
+==============================================
+Module-Every python file acting as module.
+
+one.py  - module name is one
+
+python file contains - variable,classes,function
+module contains Members-variable,classes,function
+
+Modules are Two type
+1.Inbuilt modules
+2.user defined modules.
+
+---------------------
+import module
+import module1,module2
+
+from module import member1,member2,member3...
+from module import member1 as m1, member2 as m3...
 
 
+Python inbuilt Modules
+----------------------
+math
+random
+json
+csv 
+mysql.connector
+pymongo
+requests
+re 
+
+if want more details regarding python -module
+help()
+dir()
+
+
+random - module
+-----------------
+If you want generate and work with random values.
+
+random()
+randint()
+randrange()
+choise()
+choises()
+
+WAP print random two digit number ? 10-99
+
+
+import random
+
+print(random.randint(10,99))
+
+WAP to print 10 - 4 Digit OTP Numbers? 1000 - 9999
+
+from randmom import randint
+print(randint(1000,9999))
+
+from random import randint
+
+for value in range(10):
+    print(randint(1000,9999))
