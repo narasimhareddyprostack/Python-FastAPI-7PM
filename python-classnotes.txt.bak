@@ -622,3 +622,119 @@ from random import randint
 
 for value in range(10):
     print(randint(1000,9999))
+
+WAP to demonostrate lucky dip?
+
+enames=["Rahul","Sonia","Priyanka","Modi","Amith"]
+
+Select one employee-lucky dip.
+
+from random import choise 
+
+print(choise(enames))
+
+
+==================================
+File Handling?
+We are storing data - permanently in files,DB.
+Files
+__________________
+1)Text(.txt,.json..csv, .doc), 
+2)Binay Files(image,audio,video))
+
+Databases
+__________________
+1)SQL
+2)NoSQL
+
+
+WAP to read data.txt file and print data?
+WAP to read emp.json file and print all employee names?
+WAP to read csv.json file and print all employee names?
+
+WAP - write data into abc.txt file?
+WAP - read data.txt file and write data into abc.txt file?
+WAP - to display file/File Pointer Properties.
+
+File pointer?
+File Pointer - properties?
+
+Extract   -Data from - cloud souces/Rest API/DB/Files
+Tranform  - accoring to requiremnt
+Load      -into
+a) text file
+b) json files
+c) csv files
+d) Mysql Table
+e) Mongo DB collection.
+
+Error Hanlding
+List,Tuple,set,Dict and  Datastructure Methods,
+
+
+open() - inbuilt function
+input()
+print()
+id()
+type()
+len()
+min()
+max()
+eval()
+int()
+str()
+
+
+WAP to - read data.txt file 
+and write data into abc.txt file?
+
+fp1=open('data.txt','r')
+fp2=open('abc.txt','w')
+data=fp1.read()
+fp2.write(data)
+print("New file - abc.txt created successfully")
+
+#resource management
+fp1.close()
+fp2.close()
+
+
+fp1=open('data.txt')
+fp2=open('abc.txt','w')
+#print all file properites
+'''
+file name 
+mode 
+is readble or not 
+is writable or not
+is closed or not
+'''
+print(fp1.name)   #data.txt
+print(fp1.mode)   #r
+print(fp1.writable()) #False
+print(fp1.readable()) #True
+print(fp1.closed)     #False
+fp1.close()
+print(fp1.closed)     #True
+
+What is JSON?
+Javascript Object Notation.
+To exchange data between two software components.
+we are using xml format or json format.
+
+JSON data- follows Javascript Data Type:
+
+Primitive Data Type         Non primitive Data type
+------------------------------------------------------
+number                      Object.
+string
+boolean
+undefined
+bigInt
+symbol
+null
+-----------------------------------------------------
+if you want to handle - JSON file/JSON Data?
+we are using JSON Module
+json.loads()           json.dumps()
+json.load()            json.dump()
