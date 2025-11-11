@@ -659,7 +659,7 @@ WAP - to display file/File Pointer Properties.
 File pointer?
 File Pointer - properties?
 
-Extract   -Data from - cloud souces/Rest API/DB/Files
+Extract   - Data from - cloud souces/Rest API/DB/Files
 Tranform  - accoring to requiremnt
 Load      -into
 a) text file
@@ -739,3 +739,85 @@ we are using JSON Module
 json.loads()           json.dumps()
 json.load()            json.dump()
 
+==============================================
+LinkedIn
+Indeed
+Naukri
+
+Pro Stack Training
+Placement co-ordinator
+a) Diaily search Full stack Jobs from various portal
+b) posting what's business group
+
+AI Agent
+What is Agent?
+LLM? Open AI/Claude/Deep SeeK.
+
+Initial Level - free Keys
+
+=============================================
+JSON  - JS Object Natation. To exchange data 
+CSV   - Comma Separate Version
+
+emp.json
+emp.csv
+======================
+
+read json file and print all employee names
+read csv file and print all employee names
+
+
+json module
+members: load()  dump()
+	 loads() dumps()
+
+How to invoke Rest API in Python?
+
+What is Rest API?
+Backend Developer - developing rest api?
+
+function/class - to insert/update/del data from fs/db.
+
+How to invoke Rest API in Python? requests
+
+Python-inbuilt modules
+-----------------------
+math
+random
+os 
+pathlib
+json
+csv
+requests
+re
+-----------------------------------------------
+
+How to invoke Rest API in Python? requests
+How to test Rest API? Rest aPI Testing tools
+ie. POSTMAN
+
+HTTP Status code:
+---------------------------
+1XX  -
+2XX  - success
+3XX 
+4XX  - Resource Not found
+5XX  - Internal Server Error
+
+HTTP Method Type: GET,POST,PUT,DELETE,PATCH
+-------------------------------------------
+Usage:  fetch all users
+Rest API URL:https://jsonplaceholder.typicode.com/users
+Method Type:GET
+Required Fields: None
+Access Type: Public
+
+
+Invoke Rest API and 
+1)Lad data into new JSON file
+2)Load data into new CSV File
+
+ETL: 
+Extract - from cloud/DB/FS/DWH/Rest API 
+Trasform 
+Load    - into DB/FS/Cloud
