@@ -812,12 +812,189 @@ Method Type:GET
 Required Fields: None
 Access Type: Public
 
-
 Invoke Rest API and 
-1)Lad data into new JSON file
+1)Load data into new JSON file
 2)Load data into new CSV File
-
 ETL: 
 Extract - from cloud/DB/FS/DWH/Rest API 
 Trasform 
 Load    - into DB/FS/Cloud
+
+
+data=csv.reader(fp)
+csv_writer_obj=csv.writer(fp)
+csv_writer_obj.writerow()
+csv_writer_obj.writerows()
+==========================
+
+print(10/1)
+print(10/0)
+print(10/5)
+print("GE")
+
+Program terminate abnoramally - 
+we need to hadle errors.
+===============================
+
+PDBC  : Mysql and MongoDB - ETL Process
+
+pip install mysql-connector-python
+pip install pymongo
+===================================
+1.Establish connection
+2.create cursor pointer
+3.execute sql st - using cursor methods
+	cursor.execute(sql)
+	cursor.executemany(sql,data)
+4.commit chages - 
+        dbcon.commit()
+5.close connection/release resouces.
+
+Perfrom CRUD Operations - Mysql
+1.create table
+2.Insert one row in to mysql Table
+3.Insert mutliple rows in to mysql Table
+4.update&Delete
+5.fetch/read mysql table data using python script
+
+Mysql 
+-----------------
+host
+user
+password
+database
+
+==================================================
+How to invoke rest api in python? requests
+How to invoke rest api in JS?     fetch() function
+How to invoke rest api in React?  Axios
+
+Task 3:
+--------------------------------------------
+REST URL: https://dummyjson.com/products
+Method Method:GET
+Access Type:Public
+Required Fields: None
+
+1. Extract Data: from Rest API/FS/DB/Cloud
+2. Tranform - Based on Required.
+   beauty products(pid,pname,price,categroy,rating)
+3. Load into
+1)product.csv file
+2)product.json file
+3)mysql Product table
+4)MongoDB Product collection.
+Note: with Error handling options.
+
+
+create table products(
+pid int primary key,
+pname varchar(50) not null,
+price float,
+category varchar(32), 
+rating float
+);
+insert into products(pid,pname,price,category,rating)
+values(%s,%s,%s,%s,%s);
+
+========================================
+What is FastAPI?
+FastAPI is modern,fast and hign-performance 
+web framework for building rest api with python.
+
+Why FastAPI?
+Adv FastAPI?
+Django vs FastAPI vs Flask?
+
+Pre-Requisites?
+---------------------
+python
+virtual Environment
+PIP install fastapi uvicorn
+VS code 
+POSTMAN - Testing rest API
+Database - 
+a)Mysql
+b)MongoDB
+
+
+python -m venv  myproj
+
+PIP install fastapi uvicorn
+
+
+API Info
+----------------
+usage: Application root Request
+Rest API URL: http://localhost:8000/
+Method Type : GET
+Required Fields: None
+Access Type: Public
+
+usage: About Request
+Rest API URL: http://localhost:8000/about
+Method Type : GET
+Required Fields: None
+Access Type: Public
+
+usage: contact page Request
+Rest API URL: http://localhost:8000/contact
+Method Type : GET
+Required Fields: None
+Access Type: Public
+
+How to start Server?
+uvicorn app:app --reload
+uvicorn server:app --reload
+
+What is uvicorn? ASGI Web Server for Python Application.
+
+
+http://127.0.0.1:8000/
+http://127.0.0.1:8000/about
+http://127.0.0.1:8000/contact
+
+Employee 
+-----------------
+create new employee                :POST
+fetch all employees                :GET 
+fetch employee based on employe id :GET
+update employee                    :PUT
+delete employee                    :DETETE
+
+Product
+------------
+create new product
+fetch all products
+fetch product by productid
+update product
+delete product
+
+
+User 
+Order
+====================
+
+Employee 
+-----------------
+create new employee                :POST
+fetch all employees                :GET 
+fetch employee based on employe id :GET
+update employee                    :PUT
+delete employee                    :DETETE
+
+Create
+-------------
+usage:create new employee 
+Rest API URL: http://127.0.0.1:8000/emp/create
+Method Type:POST
+Required Fields:eid,ename,esal
+Access Type:Public
+
+Read
+----
+usage:fetch all employees  
+Rest API URL: http://127.0.0.1:8000/emp/read
+Method Type:GET
+Required Fields:None
+Access Type:Public
